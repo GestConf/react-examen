@@ -1,0 +1,49 @@
+.buscador {
+    position: absolute;
+    width: 297px;
+    height: 55px;
+    left: 1047px;
+    top: 32px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 5px;
+    margin: 10px 60px;
+    flex-direction: row;
+}
+
+.opciones {
+    padding: 5px 8px;
+    width: 30%;
+    border: none;
+    border-radius: 16px;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+    transition: 1s background-color;
+}
+
+.opciones:hover {
+    background-color: rgba(221, 221, 221, 0.863);
+}
+
+.texto-buscar {
+    padding: 5px 8px;
+    width: 30%;
+    border: none;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+}
+
+.boton-buscar {
+    padding: 5px 8px;
+    width: 30%;
+    border: none;
+    background: transparent;
+}
+
+.boton-buscar:hover {
+    background-color: royalblue;
+}
