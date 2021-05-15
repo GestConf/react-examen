@@ -30,11 +30,6 @@ class Buscador extends React.Component {
                 <select className="opciones" name="select" onChange={this.handleChangeParametroBusqueda} value={parametroBusqueda}>
                     <option value="city" selected>City</option>
                     <option value="country" selected>Country</option>
-                    <option value="beds">Beds</option>
-                    <option value="title">Title</option>
-                    <option value="rating">Rating</option>
-                    <option value="maxguest">MaxGuests</option>
-                    <option value="type">Type</option>
                 </select>
                 <input className="texto-buscar" value={buscar} onChange={this.handleChange} onKeyUp={() => data(buscar, parametroBusqueda)} type="text" id="buscar" placeholder="Buscar..." />
 
