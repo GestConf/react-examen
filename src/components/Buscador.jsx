@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/buscador.css'
+import img from '../assets/img-buscar.png'
 
 class Buscador extends React.Component {
     constructor(props) {
@@ -32,8 +33,8 @@ class Buscador extends React.Component {
                     <option value="country" selected>Country</option>
                 </select>
                 <input className="texto-buscar" value={buscar} onChange={this.handleChange} onKeyUp={() => data(buscar, parametroBusqueda)} type="text" id="buscar" placeholder="Buscar..." />
-
-                <button className="boton-buscar" onClick={() => data(buscar, parametroBusqueda)}><img src="https://lh3.googleusercontent.com/proxy/r23Mjo27Doe1fQXHzdQOV8NWVbn8BemSE1HKraydemdvD8FwekwBrUstZnCeZByjDuRlgG1qJpWYFvSHE2KuOx0IC790iAuCZ8SRjDr-H83eWw" width="20px"></img> </button>
+                
+                <button className="boton-buscar" onClick={() => data(buscar, parametroBusqueda)}><img src={img} width="20px"></img> </button>
 
 
             </div>
